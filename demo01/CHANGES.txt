@@ -1,0 +1,10 @@
+1. Delete public/index.html
+
+2. Use ./script/generate controller Pages about home
+
+3. In routes file use:
+map.root :controller => 'pages', :action => 'home'
+
+4. To create the initial application use:
+rails demo01
+
