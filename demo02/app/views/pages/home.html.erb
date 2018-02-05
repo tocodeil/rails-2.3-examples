@@ -1,0 +1,12 @@
+<h1>Pages#home</h1>
+<p>I got a <%= @got %></p>
+<div>
+  <h2>Other Results</h2>
+  <p>pass ?q=... to filter</p>
+  <ul>
+    <% @filtered.each do |item| %>
+    <li><%= item %></li>
+    <% end %>
+  </ul>
+</div>
+

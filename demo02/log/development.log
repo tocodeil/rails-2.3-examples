@@ -1,0 +1,105 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-02-05 11:08:07) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2018-02-05 11:08:10) [GET]
+Rendering pages/about
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-02-05 11:08:11) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2018-02-05 11:08:14) [GET]
+
+TypeError (type mismatch: NilClass given):
+  lib/magic_hat.rb:8:in `index'
+  lib/magic_hat.rb:8:in `block in find_all'
+  lib/magic_hat.rb:8:in `reject'
+  lib/magic_hat.rb:8:in `find_all'
+  app/controllers/pages_controller.rb:5:in `home'
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.6ms)
+Rendered rescues/_request_and_response (4.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-02-05 11:08:15) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2018-02-05 11:09:44) [GET]
+Rendering pages/home
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-02-05 11:09:45) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2018-02-05 11:09:51) [GET]
+  Parameters: {"q"=>"bi"}
+Rendering pages/home
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home?q=bi]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-02-05 11:09:52) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2018-02-05 11:09:56) [GET]
+Rendering pages/home
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2018-02-05 11:09:57) [GET]
+
+ActionController::RoutingError (No route matches "/service-worker.js" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/share/rvm/rubies/ruby-1.9.3-p551/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
